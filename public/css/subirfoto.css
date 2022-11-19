@@ -1,0 +1,30 @@
+.inputfile-5 + label {
+    color: #000000;
+}
+
+.inputfile-5:focus + label,
+.inputfile-5.has-focus + label,
+.inputfile-5 + label:hover {
+    color: #F9AE00;
+}
+
+.inputfile-5 + label figure {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #424242bd;
+    padding: 0;
+    margin: 0 auto 10px;
+}
+
+.inputfile-5:focus + label figure,
+.inputfile-5.has-focus + label figure,
+.inputfile-5 + label:hover figure {
+    background-color: #808080, 26, 26, 0;
+}
+
+.inputfile-5 + label img {
+    width: 100%;
+    height: 100%;
+    fill: rgb(255, 0, 0);
+}

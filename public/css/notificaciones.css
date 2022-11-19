@@ -1,0 +1,23 @@
+.noti {
+    padding: 10px 10px;
+    display: flex;
+    background:linear-gradient(to right,#a1a1a1   0%,#3d3d3d 100%);
+    border-radius: 20px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+    
+
+  .circulo {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius:50%;
+    right:-120px;
+    bottom: -73px;
+    z-index: 1;
+    background:linear-gradient(to right,#f9ae00 0%,#5e4200 100%);
+     opacity: 8.8;
+  }
